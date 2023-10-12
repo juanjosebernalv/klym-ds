@@ -1,6 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
+    "baseUrl": "./src",
+    "paths": {
+      "components": ["./src/components"],
+      "constants": ["./src/constants"],
+      "pages": ["./src/pages"],
+      "hooks": ["./src/hooks"],
+      "utils": ["./src/utils"],
+      "assets": ["./src/assets"],
+    },
     "lib": [
       "dom",
       "dom.iterable",
@@ -22,5 +31,5 @@
   },
   "include": [
     "src"
-  ]
+  ],
 }

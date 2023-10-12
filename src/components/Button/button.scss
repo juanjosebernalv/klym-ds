@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.storybook_button {
+    @apply font-sans rounded-3xl px-6 h-10;
+
+    &__primary {
+        @apply bg-primary font-semibold text-base leading-5;
+        @apply border-none #{!important};
+        @apply text-white #{!important};
+        @apply hover:bg-primary-6 #{!important};
+        @apply active:bg-primary-8 #{!important};
+    }
+
+}
